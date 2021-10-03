@@ -4,6 +4,7 @@
 #include "ShipPawn.h"
 #include "BuoyancyComponent.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/FloatingPawnMovement.h"
 #include "GameFramework/SpringArmComponent.h"
 
 // Sets default values
@@ -23,6 +24,7 @@ AShipPawn::AShipPawn()
 	m_camera->Activate();
 
 	m_buoyancy = CreateDefaultSubobject<UBuoyancyComponent>(TEXT("Buoyancy"));
+	m_movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Movement"));
 }
 
 // Called when the game starts or when spawned
@@ -35,6 +37,8 @@ void AShipPawn::BeginPlay()
 void AShipPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//TODO VECTOR CANNOT POINT TO THE BOTTOM OF THE SEA
+	m_movement->Velocity=-GetActorRightVector()*1000;
 }
 
 // Called to bind functionality to input

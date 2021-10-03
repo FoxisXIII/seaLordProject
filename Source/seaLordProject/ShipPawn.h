@@ -6,6 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "ShipPawn.generated.h"
 
+class UFloatingPawnMovement;
 class UCameraComponent;
 class USpringArmComponent;
 class UBuoyancyComponent;
@@ -33,6 +34,8 @@ protected:
 	UStaticMeshComponent* m_shipMesh;
 	UPROPERTY(EditAnywhere)
 	UBuoyancyComponent* m_buoyancy;
+	UPROPERTY(EditAnywhere)
+	UFloatingPawnMovement* m_movement;
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 };
