@@ -8,14 +8,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="603ea5ea-684f-43a9-8c16-ab3d8fc0425d" name="Changes" comment="" />
+    <list default="true" id="603ea5ea-684f-43a9-8c16-ab3d8fc0425d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.seaLordProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.seaLordProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.seaLordProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.seaLordProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Ship.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Ship.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/L_gameplay.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/L_gameplay.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/seaLordProject/ShipController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/seaLordProject/ShipController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/seaLordProject/ShipController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/seaLordProject/ShipController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/seaLordProject/ShipPawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/seaLordProject/ShipPawn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/seaLordProject/ShipPawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/seaLordProject/ShipPawn.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ywWkERC4dqiLiAmmkV0aSj7UaI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -257,6 +267,7 @@
       <updated>1633163274249</updated>
       <workItem from="1633163283579" duration="1000" />
       <workItem from="1633249421259" duration="2420000" />
+      <workItem from="1633278648791" duration="3273000" />
     </task>
     <servers />
   </component>
@@ -264,7 +275,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
